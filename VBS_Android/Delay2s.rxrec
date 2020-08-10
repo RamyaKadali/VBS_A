@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="19ecb906-c710-400e-8909-765e18a7dcaa"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Delay2s"
+	namespace="VBS_Android">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="300ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="788fe47f-cb68-46e0-b7b8-8db3784aaa96"
+	name="VBS_AndroidRepository"
+	relativepath="VBS_AndroidRepository.rxrep">
+		<codegen
+		classname="VBS_AndroidRepository"
+		namespace="VBS_Android">
+		</codegen>
+		<rootfolder
+		id="33ac3cb3-8a0e-4e95-9bfa-a7bed713ab3b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Delay2s.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

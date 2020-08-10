@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e426b2cc-9c7c-410f-b1d8-2d5c28f22963"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="VBS_Android">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="788fe47f-cb68-46e0-b7b8-8db3784aaa96"
+	name="VBS_AndroidRepository"
+	relativepath="VBS_AndroidRepository.rxrep">
+		<codegen
+		classname="VBS_AndroidRepository"
+		namespace="VBS_Android">
+		</codegen>
+		<rootfolder
+		id="33ac3cb3-8a0e-4e95-9bfa-a7bed713ab3b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="aebe9098-a58f-4120-8948-834ede1abc55"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Validation"
+	namespace="VBS_Android">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeContains"
+		enabled="True"
+		optional="False"
+		searchpropertyid="811b5d31-6714-41d4-8fa4-2d24ee06261c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="06c0a936-e817-47d7-a9f7-4b5263169a50"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="ptag, webelement, mobileuielement"
+				dontcache="False"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="0"
+				prefcap="ptag"
+				rect="145,438,1151,283"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						is the front end application from Vodafone.
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						p
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						-121
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.vodafone.viewer']/form[@title='(none)']/container[@rid='content']//dom[@containertype='WebView']/body/div/div//article/section/p[@innertext&gt;'is the front end application']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				is the front end application from Vodafone.
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="788fe47f-cb68-46e0-b7b8-8db3784aaa96"
+	name="VBS_AndroidRepository"
+	relativepath="VBS_AndroidRepository.rxrep">
+		<codegen
+		classname="VBS_AndroidRepository"
+		namespace="VBS_Android">
+		</codegen>
+		<rootfolder
+		id="33ac3cb3-8a0e-4e95-9bfa-a7bed713ab3b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Validation.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

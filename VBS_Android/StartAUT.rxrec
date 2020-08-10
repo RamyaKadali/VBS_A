@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="99b4780c-1c1b-41fa-b04c-906671d1080d"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="VBS_Android">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runmobileapprecorditem
+		application="com.vodafone.viewer"
+		devicename="USB-8BFY0YN86"
+		duration="3500ms"
+		enabled="True"
+		optional="False"
+		resetInitialState="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</runmobileapprecorditem>
+	</recorditems>
+	<repository
+	id="788fe47f-cb68-46e0-b7b8-8db3784aaa96"
+	name="VBS_AndroidRepository"
+	relativepath="VBS_AndroidRepository.rxrep">
+		<codegen
+		classname="VBS_AndroidRepository"
+		namespace="VBS_Android">
+		</codegen>
+		<rootfolder
+		id="33ac3cb3-8a0e-4e95-9bfa-a7bed713ab3b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

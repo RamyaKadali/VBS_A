@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="VBS_Android"
+      id="c0cbfab2-ffd8-4ba9-873a-ea4d44090a86"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="VBS_Android"
+      id="c0cbfab2-ffd8-4ba9-873a-ea4d44090a86"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
